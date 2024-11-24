@@ -1,0 +1,91 @@
+.admin-container {
+    padding: 100px; /* Doubled padding */
+    font-family: Arial, sans-serif;
+    max-width: 2400px; /* Doubled max-width */
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 100px; /* Doubled margin */
+    font-size: 8rem; /* Doubled font size */
+    color: #333;
+  }
+  
+  .admin-section {
+    margin-bottom: 100px; /* Doubled margin */
+  }
+  
+  .admin-section h2 {
+    margin-bottom: 60px; /* Doubled margin */
+    font-size: 7rem; /* Doubled font size */
+    color: #555;
+  }
+  
+  .form {
+    display: flex;
+    gap: 40px; /* Doubled gap */
+    margin-bottom: 80px; /* Doubled margin */
+    flex-wrap: wrap;
+  }
+  
+  .form input {
+    flex: 1;
+    padding: 30px; /* Doubled padding */
+    font-size: 3rem; /* Doubled font size */
+    border: 1px solid #ddd;
+    border-radius: 16px; /* Doubled border-radius */
+    width: 100%; /* Full width */
+  }
+  
+  button {
+    padding: 30px 50px; /* Doubled padding */
+    font-size: 4rem; /* Doubled font size */
+    background-color: #fcb034;
+    color: white;
+    border: none;
+    border-radius: 16px; /* Doubled border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Full width */
+  }
+  
+  button:hover {
+    background-color: #ffa726;
+    transform: scale(1.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 3.6rem; /* Doubled font size */
+  }
+  
+  ul li {
+    margin: 40px 0; /* Doubled margin */
+    padding: 40px; /* Doubled padding */
+    background: #f9f9f9;
+    border-radius: 20px; /* Doubled border-radius */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Increased shadow for larger size */
+  }
+  
+  ul li button {
+    margin-left: 20px; /* Doubled margin */
+    background-color: #ff5c5c;
+    border: none;
+    color: white;
+    padding: 30px 40px; /* Doubled padding */
+    font-size: 3rem; /* Doubled font size */
+    cursor: pointer;
+    border-radius: 12px; /* Doubled border-radius */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  ul li button:hover {
+    background-color: #ff3b3b;
+    transform: scale(1.1);
+  }
+  
